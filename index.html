@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="body">
+        <section class="section01">
+            <div class="first_div">
+                <div class="menu_bar" title="Menu">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <a href="https://www.youtube.com/" style="text-decoration: none;"><button class="chat" title="New Chat">
+                    <i class="fa-regular fa-plus"></i>
+                    <p>New Chat</p>
+                </button></a>
+                <div class="left_bottom">
+                    <a href="#" style="text-decoration: none;"><div class="help" title="Help">
+                        <i class="fa-regular fa-circle-question"></i>
+                        <p>Help</p>
+                    </div></a>
+                    <a href="#" style="text-decoration: none;"><div class="settings" title="Settings">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>settings</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <section class="section02">
+            <header>
+                <h2 class="head">Chat<span>Bot</span></h2>
+                <div class="log_in">
+                    <i class="fa-solid fa-list" title="Google Apps"></i>
+                    <a href="#"><button title="Login">Login</button></a>
+                </div>
+            </header>
+            <footer>
+                <input type="text" placeholder="Ask Srmbot">
+                <a href="#" title="Use microphone"><i class="fa-solid fa-microphone" ></i></a>
+            </footer>
+        </section>
+    </section>
+    <script>
+        ScrollReveal().reveal('.section02 h2', {
+            duration: 1000,
+            distance: '30px',
+            origin: 'left'
+        });
+
+    </script>
+    
+</body>
+
+</html>

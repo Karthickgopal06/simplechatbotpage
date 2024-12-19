@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body {
+    display: flex;
+    overflow: hidden;
+}
+.first_div {
+    height: 100vh;
+    width: 35vh;
+    background-color: #34324a;
+}
+.section02 {
+    background-color: #161426;
+    width: 100%;
+}
+.first_div button {
+    margin: 15px;
+}
+.menu_bar {
+    padding: 20px;
+}
+.menu_bar::after  {
+    content: '';
+    visibility: visible;
+    opacity: 1;
+    background-color: red;
+}
+.menu_bar i
+{
+    color: white;
+}
+.chat {
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #161426;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.chat i
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+.left_bottom {
+    margin-top: 520px;
+}
+.left_bottom .help
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.left_bottom .help:hover {
+    border: 1px solid black;
+    text-align: center;
+}
+.left_bottom .help i {
+    padding-right: 10px;
+    color: white;
+}
+.left_bottom .help p {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.left_bottom .settings
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center; 
+    cursor: pointer;
+}
+.left_bottom .settings:hover {
+    border: 1px solid black;
+    text-align: center;
+}
+.left_bottom .settings i {
+    padding-right: 10px;
+    color: white;
+}
+.left_bottom .settings p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;  
+}
+.section02 header {
+    display: flex;
+    justify-content: space-between;
+}
+.section02 h2 {
+    padding: 20px;
+    color: white;
+    font-family: "Ubuntu", serif;
+}
+.section02 h2 span
+{
+    color: #34324a;
+    font-family: "Ubuntu", serif;
+}
+.section02 .log_in {
+    padding: 20px;
+}
+.section02 .log_in i {
+    padding-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.section02 .log_in button
+{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #34324a;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section02 footer {
+    display: flex;
+    justify-content: center;
+    transform: translate(10px,580px);
+}
+.section02 footer input
+{
+    width: 40%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #34324a;
+}
+.section02 footer input::placeholder
+{
+    padding-left: 20px;
+    color: rgb(186, 186, 186);
+    font-family: sans-serif;   
+}
+.section02 footer i
+{
+    transform: translate(-30px,12px);
+    color: white;
+    cursor: pointer;
+}
